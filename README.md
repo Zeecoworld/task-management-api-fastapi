@@ -43,12 +43,12 @@ This command starts the application in development mode with hot reloading enabl
 Endpoints
 This application exposes several RESTful endpoints for task management. Here's a brief overview:
 
-. GET /tasks: Retrieves a list of tasks.
-. POST /tasks: Creates a new task.
-. PUT /{taskId}: Updates an existing task.
-. DELETE /{taskId}: Deletes a task by ID.
-. DELETE /{taskId}: Deletes a task by ID.
-. TOKEN /{token}: For authenticating request call to above task endpoints using jwt token.
+1. GET /tasks: Retrieves a list of tasks.
+2. POST /tasks: Creates a new task.
+3. PUT /{taskId}: Updates an existing task.
+4. DELETE /{taskId}: Deletes a task by ID.
+5. DELETE /{taskId}: Deletes a task by ID.
+6. TOKEN /{token}: For authenticating user making request call to task endpoints (JWT TOKEN) using login detail below.
 
 ## IMPORTANT NOTE
 
