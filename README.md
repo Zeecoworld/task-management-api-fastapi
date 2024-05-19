@@ -54,7 +54,7 @@ This application exposes several RESTful endpoints for task management. Here's a
 
 . Replace {taskId} with the actual ID of the task you wish to update or delete.
 . A default "fake" login has been created/implemented to test the jwt token and CRUD task endpoints.
-  ## (THIS IS IMPLEMENTED FOR SEAMLESS API ENDPOINT CALL WITHOUT NETWORK OR REMOTE INTERNET CONNECTION HITCHES ON A REMOTE DATABASE CONNECTIONS)
+  ## (THIS IS IMPLEMENTED FOR SEAMLESS API ENDPOINT CALL WITHOUT INVOLVING NETWORK OR REMOTE INTERNET CONNECTION HITCHES THAT MOSTLY OCCUR WITH REMOTE DATABASE CONNECTIONS)
 
 ## DETAIL FOR LOGIN (REQUIRED)
  . EMAIL: isaac@test.com
