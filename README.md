@@ -56,6 +56,15 @@ This application exposes several RESTful endpoints for task management. Here's a
 . A default "fake" login has been created/implemented to test the jwt token and CRUD task endpoints.
   ## (THIS IS IMPLEMENTED FOR SEAMLESS API ENDPOINT CALL USING A LOCAL DB LOGIN BELOW WITHOUT INVOLVING NETWORK OR REMOTE INTERNET CONNECTION HITCHES THAT MOSTLY OCCUR WITH REMOTE DATABASE CONNECTIONS)
 
+## PAYLOAD SAMPLE 
+{
+    "id": 3434,
+    "title": "Clean the kitchen",
+    "description": "it should be clean",
+    "due_date": "2024-03-08",
+    "status": "Pending"
+}
+
 ## DETAIL FOR LOGIN (REQUIRED)
  . EMAIL: isaac@test.com
  . PASSWORD: shi24@%@#pass
